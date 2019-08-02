@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#141414"
+    tools:context=".Registrasi">
+
+    <EditText
+        android:id="@+id/txtNotelp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="20sp"
+        android:layout_marginTop="124dp"
+        android:hint="Nomor Telepon"
+        android:inputType="phone"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#C2C2C2"
+        android:textSize="20sp" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="178dp"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20sp"
+        android:text="Untuk membuat akun LINE, silahkan verifikasi nomor telepon anda. Dengan"
+        android:textColor="#C2C2C2"
+        android:textSize="10dp" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:text="mengetuk 'berikutnya' , anda menyetujui "
+        android:textColor="#C2C2C2"
+        android:textSize="10dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Syarat dan ketentuan penggunaan "
+        android:textColor="#21F00B"
+        android:textSize="10dp" />
+
+
+</LinearLayout>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:text="dan "
+            android:textColor="#C2C2C2"
+            android:textSize="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="kebijakan privasi "
+            android:textColor="#21F00B"
+            android:textSize="10dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LINE "
+        android:textColor="#C2C2C2"
+        android:textSize="10dp" />
+    </LinearLayout>
+
+</LinearLayout>
+    <Button
+
+        android:id="@+id/btnberikutnya"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="#C9C9C9"
+        android:text="berikutnya"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        />
+
+</RelativeLayout>
